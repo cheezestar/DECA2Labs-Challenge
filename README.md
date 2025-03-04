@@ -14,3 +14,5 @@ due to us using the inherent MOV instruction format to add to EE1 IS I can take 
 <img width="654" alt="Image" src="https://github.com/user-attachments/assets/0d8f04fc-e311-46f3-b7ec-2df55a438b0b" />
 
 *here is that path in ALU block- you can also see me adding another MUX and a MULTI select input which i will get from the DPECODE block*
+
+-its worth noting i am using the first 8 bits of each input block-
