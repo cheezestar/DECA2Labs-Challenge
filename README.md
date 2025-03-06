@@ -21,7 +21,7 @@ due to us using the inherent MOV instruction format to add to EE1 IS I can take 
 
 *here is my implementation of the dpecode*
 
-I have made multiselkect by checking address 'c' for MOV is not equal to 0 and make sure that the ALU instruction select is MOV in the right format ([[i do not need to worry if MOV is selected here as it will already happen in the ALU thanks to the way i added the muxs]]).
+I have made multiselkect by checking address 'c' for MOV is not equal to 0 and make sure that the ALU instruction select is MOV in the right format (<ins>i do not need to worry if MOV is selected here as it will already happen in the ALU thanks to the way i added the muxs</ins>).
 
 I also wanted my address structure to be MOVc Ra , Rb , Rc to compute Rb := Ra * Rc so ive added multis select into the AD1selc to get this format for the register file.
 
