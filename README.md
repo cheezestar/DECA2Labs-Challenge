@@ -16,3 +16,13 @@ due to us using the inherent MOV instruction format to add to EE1 IS I can take 
 *here is that path in ALU block- you can also see me adding another MUX and a MULTI select input which i will get from the DPECODE block*
 
 -its worth noting i am using the first 8 bits of each input block-
+
+
+
+*here is my implementation of the dpecode*
+
+I have made multiselkect by checking address 'c' for MOV is not equal to 0 and make sure that the ALU instruction select is MOV in the right format ([i do not need to worry if MOV is selected here as it will already happen in the ALU thanks to the way i added the muxs]).
+
+I also wanted my address structure to be MOVc Ra , Rb , Rc to compute Rb := Ra * Rc so ive added multis select into the AD1selc to get this format for the register file.
+
+This is all the hardware I added, in order too implement the 16bit by 16bit and signed multiplication i have made some software.
