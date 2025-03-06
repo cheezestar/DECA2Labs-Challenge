@@ -25,4 +25,6 @@ I have made multiselkect by checking address 'c' for MOV is not equal to 0 and m
 
 I also wanted my address structure to be MOVc Ra , Rb , Rc to compute Rb := Ra * Rc so ive added multis select into the AD1selc to get this format for the register file.
 
+<img width="711" alt="Image" src="https://github.com/user-attachments/assets/2b085b74-3e38-4333-98df-eaf2aba5e042" />
+
 This is all the hardware I added, in order too implement the 16bit by 16bit and signed multiplication i have made some software.
