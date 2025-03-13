@@ -28,3 +28,14 @@ I also wanted my address structure to be MOVc Ra , Rb , Rc to compute Rb := Ra *
 <img width="711" alt="Image" src="https://github.com/user-attachments/assets/2b085b74-3e38-4333-98df-eaf2aba5e042" />
 
 This is all the hardware I added, in order too implement the 16bit by 16bit and signed multiplication i have made some software.
+
+Here is the 8bit by 8bit test just to show that my new instruction works
+<img width="359" alt="image" src="https://github.com/user-attachments/assets/30e7bd06-21f6-4882-9793-8b6fa43b5728" />
+<img width="994" alt="image" src="https://github.com/user-attachments/assets/c03d4375-7202-4f4e-91fb-3c9c6a38b250" />
+Here we see the result and see the 63 * 127 = 8001 which is correct
+
+16bit by 16bit is much more confusing as i have to perform the neccessary multiplies on the various blocks of 8 bits a bit like expanding double brackets. /n
+I used shifts to get these in the necessary positions to be multiplied and again shifting in order to deal with the results
+
+<img width="272" alt="Image" src="https://github.com/user-attachments/assets/6db26c2a-2544-453f-acd2-03a4018ab94f" />
+<img width="817" alt="Image" src="https://github.com/user-attachments/assets/90a59a54-008a-4b32-8383-840d21cbc6cc" />
