@@ -39,4 +39,6 @@ I used shifts to get these in the necessary positions to be multiplied and again
 
 <img width="272" alt="Image" src="https://github.com/user-attachments/assets/6db26c2a-2544-453f-acd2-03a4018ab94f" />
 <img width="817" alt="Image" src="https://github.com/user-attachments/assets/90a59a54-008a-4b32-8383-840d21cbc6cc" />
+
+
 And so 0x10A52A10 = 279259664 and equal to 13457 * 20752 showing this program works again significantly reducing the amount of cycles required.
